@@ -5,9 +5,9 @@ class RGB {
   B = 0
 
   constructor(R, G, B) {
-    this.R = R
-    this.G = G
-    this.B = B
+    this.red = R
+    this.green = G
+    this.blue = B
   }
 
   setValue (channel, value) {
@@ -38,6 +38,8 @@ class RGB {
 }
 
 
-const rgb = new RGB(100, 10, 155)
+const rgb = new RGB(100, 10, 40)
+
+rgb.blue = 350
 
 console.log(rgb);
